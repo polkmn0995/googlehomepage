@@ -15,6 +15,8 @@ h2 {
   text-align: center;
   margin-bottom: 30px;
   color: #333;
+
+  position: relative;
 }
 .input-group {
   display: flex;
@@ -52,4 +54,17 @@ h2 img {
   width: 23px;
   margin-right: 10px;
   padding-top: 5px;
+  position: absolute;
+  left: 120px;
+}
+input[type="button"] {
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #fbbc05;
+  margin-top: 10px;
+  border: none;
+}
+input[type="button"]:hover{
+    background-color: #daa403;
 }
