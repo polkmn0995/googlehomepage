@@ -65,6 +65,6 @@ input[type="button"] {
   margin-top: 10px;
   border: none;
 }
-input[type="button"]:hover{
-    background-color: #daa403;
+input[type="button"]:hover {
+  background-color: #daa403;
 }
