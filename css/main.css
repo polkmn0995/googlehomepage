@@ -113,7 +113,7 @@ header nav a:hover {
   width: 45px;
   height: 45px;
   background-color: rgba(241, 243, 244, 1);
-  border-radius: 50px;
+  border-radius: 50%;
   position: relative;
   margin: 0 auto;
   top: 20px;
@@ -123,28 +123,30 @@ header nav a:hover {
   top: 10px;
   left: 11px;
 }
-.icon {
+.dot {
   width: 27px;
   height: 27px;
   background-color: rgb(229, 231, 232);
   position: absolute;
   top: 3px;
   right: 3px;
-  border-radius: 50px;
+  border-radius: 50%;
   opacity: 0;
+  color: #777;
 }
 .tlie-container a:hover {
   background-color: rgb(229, 231, 232);
   border-radius: 5px;
 }
-.tlie-container a:hover .icon {
+.tlie-container a:hover .dot {
   opacity: 1;
-  transition: 1s;
+  transition: opacity 0.4s ease-in-out;
+  transition-delay: 0.4s;
 }
-.icon:hover {
+.dot:hover {
   background-color: rgb(197, 197, 197);
 }
-.icon i {
+.dot i {
   line-height: 26px;
 }
 .tlie-container a span {
